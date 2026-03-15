@@ -1,7 +1,7 @@
 # hass-addons
 
 Willans HA Add-ons Repository
-
+fix by bouchb
 ## Installation
 
 Adding this add-ons repository to your Home Assistant instance is
