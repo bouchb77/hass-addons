@@ -52,7 +52,7 @@ function startApp () {
 function startMissionLoop () {
   if (mapping) {
     $('#mapStatus').html('getting point...');
-    $.get('/api/local/info/mission', function (data) {
+    $.get('/api/local/info/state', function (data) {
       messageHandler(data);
       setTimeout(startMissionLoop, updateEvery);
     });
